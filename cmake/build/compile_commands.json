@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/proto",
+  "command": "/usr/bin/clang++ -DCARES_STATICLIB -I/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/proto -isystem /Users/binpan/.local/include -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/MsgForwarding.dir/MsgForwarding.pb.cc.o -c /Users/binpan/Documents/Projects/my_grpc_services/cmake/build/proto/MsgForwarding.pb.cc",
+  "file": "/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/proto/MsgForwarding.pb.cc",
+  "output": "proto/CMakeFiles/MsgForwarding.dir/MsgForwarding.pb.cc.o"
+},
+{
+  "directory": "/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/proto",
+  "command": "/usr/bin/clang++ -DCARES_STATICLIB -isystem /Users/binpan/.local/include -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/MsgForwardingService.dir/MsgForwardingServer.pb.cc.o -c /Users/binpan/Documents/Projects/my_grpc_services/cmake/build/proto/MsgForwardingServer.pb.cc",
+  "file": "/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/proto/MsgForwardingServer.pb.cc",
+  "output": "proto/CMakeFiles/MsgForwardingService.dir/MsgForwardingServer.pb.cc.o"
+},
+{
+  "directory": "/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/proto",
+  "command": "/usr/bin/clang++ -DCARES_STATICLIB -isystem /Users/binpan/.local/include -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/MsgForwardingService.dir/MsgForwardingServer.grpc.pb.cc.o -c /Users/binpan/Documents/Projects/my_grpc_services/cmake/build/proto/MsgForwardingServer.grpc.pb.cc",
+  "file": "/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/proto/MsgForwardingServer.grpc.pb.cc",
+  "output": "proto/CMakeFiles/MsgForwardingService.dir/MsgForwardingServer.grpc.pb.cc.o"
+},
+{
+  "directory": "/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/MsgForwardingService",
+  "command": "/usr/bin/clang++ -DCARES_STATICLIB -I/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/proto -isystem /Users/binpan/.local/include -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/forwardserver.dir/server.cpp.o -c /Users/binpan/Documents/Projects/my_grpc_services/MsgForwardingService/server.cpp",
+  "file": "/Users/binpan/Documents/Projects/my_grpc_services/MsgForwardingService/server.cpp",
+  "output": "MsgForwardingService/CMakeFiles/forwardserver.dir/server.cpp.o"
+},
+{
+  "directory": "/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/MsgForwardingClient",
+  "command": "/usr/bin/clang++ -DCARES_STATICLIB -I/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/proto -isystem /Users/binpan/.local/include -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/forwardclient.dir/client.cpp.o -c /Users/binpan/Documents/Projects/my_grpc_services/MsgForwardingClient/client.cpp",
+  "file": "/Users/binpan/Documents/Projects/my_grpc_services/MsgForwardingClient/client.cpp",
+  "output": "MsgForwardingClient/CMakeFiles/forwardclient.dir/client.cpp.o"
+}
+]

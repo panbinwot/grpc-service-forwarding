@@ -1,0 +1,13 @@
+
+// Define a Service that forwards the message via multicast to grpc
+syntax = "proto3";
+
+package MsgForwarding;
+
+import "MsgForwarding.proto";
+
+service Afredo {
+  rpc GetLiveUpdates(UpdateRequest) returns (UpdateReply) {}
+  rpc StreamLiveUpdates(UpdateRequest) returns (stream UpdateReply) {} // server side streaming
+  //rpc GetRecap(RecaptRequest) return (RecapReply) {}
+}

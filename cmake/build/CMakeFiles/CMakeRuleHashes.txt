@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+9eaf407505beb9aaff4f915f8e0a5511 proto/MsgForwarding.pb.h
+041ebb7287822e6b784c2857fb3f7cd2 proto/MsgForwardingServer.grpc.pb.h
+bf8fa0226eba1ab902ca8f939500344f proto/MsgForwardingServer.pb.h

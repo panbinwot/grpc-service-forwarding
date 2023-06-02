@@ -1,0 +1,16 @@
+
+// Define a Service that forwards the message via multicast to grpc
+syntax = "proto3";
+
+package MsgForwarding;
+
+// Define the message types
+message UpdateRequest{
+  string name = 1;
+}
+
+message UpdateReply {
+  string name = 1;
+  int32 id = 2;
+  double price = 3;
+}

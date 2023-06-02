@@ -1,0 +1,135 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "proto",
+					"jsonFile" : "directory-proto-Debug-23359ce0bf7287cdf681.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "proto",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "MsgForwardingService",
+					"jsonFile" : "directory-MsgForwardingService-Debug-e9727696fea909c7e85f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "MsgForwardingService",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "MsgForwardingClient",
+					"jsonFile" : "directory-MsgForwardingClient-Debug-2a911fb256f0d03e9dc9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "MsgForwardingClient",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "MyGrpc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "MsgForwarding::@4dcc01eb4302123f3a4a",
+					"jsonFile" : "target-MsgForwarding-Debug-5f06e890abb99c27aa37.json",
+					"name" : "MsgForwarding",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MsgForwardingService::@4dcc01eb4302123f3a4a",
+					"jsonFile" : "target-MsgForwardingService-Debug-27ec5a38517aa9c2dad7.json",
+					"name" : "MsgForwardingService",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "forwardclient::@a947967e1a80e1a2737d",
+					"jsonFile" : "target-forwardclient-Debug-74f6a12c601a77877621.json",
+					"name" : "forwardclient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "forwardserver::@db31c1f61e7d440067d8",
+					"jsonFile" : "target-forwardserver-Debug-bfc92d744a2a0a2f98bc.json",
+					"name" : "forwardserver",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/binpan/Documents/Projects/my_grpc_services/cmake/build",
+		"source" : "/Users/binpan/Documents/Projects/my_grpc_services"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

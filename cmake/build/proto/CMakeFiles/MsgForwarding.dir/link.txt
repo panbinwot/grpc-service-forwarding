@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMsgForwarding.a CMakeFiles/MsgForwarding.dir/MsgForwarding.pb.cc.o
+/usr/bin/ranlib libMsgForwarding.a

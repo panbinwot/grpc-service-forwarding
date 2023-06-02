@@ -1,0 +1,12 @@
+/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/CMakeFiles/edit_cache.dir
+/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/CMakeFiles/rebuild_cache.dir
+/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/proto/CMakeFiles/MsgForwarding.dir
+/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/proto/CMakeFiles/MsgForwardingService.dir
+/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/proto/CMakeFiles/edit_cache.dir
+/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/proto/CMakeFiles/rebuild_cache.dir
+/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/MsgForwardingService/CMakeFiles/forwardserver.dir
+/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/MsgForwardingService/CMakeFiles/edit_cache.dir
+/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/MsgForwardingService/CMakeFiles/rebuild_cache.dir
+/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/MsgForwardingClient/CMakeFiles/forwardclient.dir
+/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/MsgForwardingClient/CMakeFiles/edit_cache.dir
+/Users/binpan/Documents/Projects/my_grpc_services/cmake/build/MsgForwardingClient/CMakeFiles/rebuild_cache.dir

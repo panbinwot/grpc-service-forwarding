@@ -1,0 +1,196 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "proto/libMsgForwardingService.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_sources",
+			"protobuf_generate"
+		],
+		"files" : 
+		[
+			"proto/CMakeLists.txt",
+			"/Users/binpan/.local/lib/cmake/protobuf/protobuf-generate.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 152,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 152,
+				"parent" : 5
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "CARES_STATICLIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/binpan/.local/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				2,
+				4
+			]
+		}
+	],
+	"id" : "MsgForwardingService::@4dcc01eb4302123f3a4a",
+	"name" : "MsgForwardingService",
+	"nameOnDisk" : "libMsgForwardingService.a",
+	"paths" : 
+	{
+		"build" : "proto",
+		"source" : "proto"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				5,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "proto/MsgForwardingServer.proto",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "cmake/build/proto/MsgForwardingServer.pb.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "cmake/build/proto/MsgForwardingServer.pb.cc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "cmake/build/proto/MsgForwardingServer.grpc.pb.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "cmake/build/proto/MsgForwardingServer.grpc.pb.cc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake/build/proto/MsgForwardingServer.pb.h.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake/build/proto/MsgForwardingServer.grpc.pb.h.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
